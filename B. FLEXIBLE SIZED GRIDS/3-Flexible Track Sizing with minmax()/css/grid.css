@@ -1,0 +1,17 @@
+/* ===================================== 
+   Grid Layout
+======================================== */
+
+.grid {
+  max-width: 1000px;
+  display: grid;
+/*  grid-template-columns: 2fr repeat(3, 1fr);*/
+/*  grid-template-columns: minmax(200px, 300px) 1fr 1fr;*/
+/*    grid-template-columns: minmax(200px, 1fr) 1fr 1fr;*/
+/*  grid-template-columns: minmax(200px, 300px) minmax(200px, 300px) minmax(200px, 300px);*/
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-rows: 100px 200px;
+  grid-gap: 15px;
+}
+
+
